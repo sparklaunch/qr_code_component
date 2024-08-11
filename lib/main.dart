@@ -5,6 +5,7 @@ void main() {
   runApp(
     const MaterialApp(
       home: Scaffold(
+        backgroundColor: Color.fromRGBO(207, 221, 237, 1),
         body: MainScreen(),
       ),
     ),
